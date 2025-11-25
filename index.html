@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SIQUEIRA PASSEIOS - Passeios de Jeep 4x4 e tours guiados pelos pontos turísticos de Monte Verde - MG. Aventura, segurança e roteiros personalizados na Serra da Mantiqueira.">
+    <meta name="keywords" content="passeios monte verde, jeep 4x4, turismo aventura, serra da mantiqueira, pedra redonda, trilhas monte verde">
+    <title>SIQUEIRA PASSEIOS - Jeep 4x4 em Monte Verde | Tours e Aventura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <a href="https://wa.me/5535991103569?text=Olá!%20Gostaria%20de%20fazer%20uma%20reserva%20para%20um%20passeio." class="whatsapp-float" target="_blank" aria-label="Contato WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-wrapper">
+                    <div class="logo">
+                        <h1>SIQUEIRA <span class="highlight">PASSEIOS</span></h1>
+                        <p class="logo-subtitle">Jeep & Quadriciclos</p>
+                    </div>
+                    
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="#inicio" class="nav-link active">Início</a></li>
+                        <li><a href="#passeios" class="nav-link">Passeios</a></li>
+                        <li><a href="#pontos-turisticos" class="nav-link">Pontos Turísticos</a></li>
+                        <li><a href="#galeria" class="nav-link">Galeria</a></li>
+                        <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                        <li><a href="#contato" class="nav-link">Contato</a></li>
+                        <li><a href="#contato" class="btn-reservar-nav">Reservar Agora</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    
+    <div class="reading-progress"></div>
+
+    
+    <section class="hero" id="inicio">
+        <div class="hero-particles"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                
+                <div class="online-badge" data-aos="fade-down">
+                    <span class="pulse-dot"></span>
+                    <span class="online-text"><strong id="onlineCount">12</strong> pessoas visualizando agora</span>
+                </div>
+                
+                <div class="hero-text" data-aos="fade-up">
+                    <div class="hero-badge">🏆 #1 em Passeios de Aventura em Monte Verde</div>
+                    <h2 class="hero-title">Explore Monte Verde com a SIQUEIRA PASSEIOS</h2>
+                    <p class="hero-subtitle">Passeios de Jeep 4x4, trilhas e tours guiados pelos melhores pontos turísticos da Serra da Mantiqueira</p>
+                    
+                    
+                    <div class="hero-features">
+                        <span class="feature-tag"><i class="fas fa-shield-check"></i> 100% Seguro</span>
+                        <span class="feature-tag"><i class="fas fa-star"></i> 5.0 Avaliação</span>
+                        <span class="feature-tag"><i class="fas fa-users"></i> +5.000 Clientes</span>
+                    </div>
+                    
+                    <div class="hero-buttons">
+                        <a href="#passeios" class="btn btn-primary btn-glow">
+                            <i class="fas fa-route"></i> Ver Passeios
+                        </a>
+                        <a href="#contato" class="btn btn-secondary btn-glass">
+                            <i class="fas fa-calendar-check"></i> Fazer Reserva
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#passeios">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    
+    <section class="diferenciais">
+        <div class="container">
+            <div class="diferenciais-grid">
+                <div class="diferencial-card" data-aos="fade-up">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Segurança Garantida</h3>
+                    <p>Jeeps 4x4 equipados e guias experientes</p>
+                </div>
+                <div class="diferencial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Roteiros Exclusivos</h3>
+                    <p>Conheça os melhores pontos da serra</p>
+                </div>
+                <div class="diferencial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Atendimento Personalizado</h3>
+                    <p>Passeios sob medida para sua família</p>
+                </div>
+                <div class="diferencial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="diferencial-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Experiência Completa</h3>
+                    <p>Aventura, natureza e diversão garantidas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="passeios" id="passeios">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Aventura Te Espera</span>
+                <h2 class="section-title">Nossos Passeios</h2>
+                <p class="section-subtitle">Escolha sua aventura e explore Monte Verde de forma única e inesquecível</p>
+            </div>
+
+            <div class="passeios-grid">
+                
+                <div class="passeio-card" data-aos="fade-up">
+                    <div class="passeio-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.10 (1).jpeg" alt="Passeio de Jeep Off-Road">
+                        <div class="passeio-badge">Mais Popular</div>
+                    </div>
+                    <div class="passeio-content">
+                        <h3 class="passeio-title">Passeio de Jeep 4x4 Off-Road</h3>
+                        <p class="passeio-description">Aventura radical pelas estradas de terra de Monte Verde. Suba morros, atravesse trilhas e descubra paisagens deslumbrantes da Serra da Mantiqueira com toda segurança.</p>
+                        <ul class="passeio-features">
+                            <li><i class="fas fa-check-circle"></i> Jeep 4x4 equipado</li>
+                            <li><i class="fas fa-check-circle"></i> Guia experiente</li>
+                            <li><i class="fas fa-check-circle"></i> Estradas de aventura</li>
+                            <li><i class="fas fa-check-circle"></i> Paradas para fotos</li>
+                        </ul>
+                        <div class="passeio-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>3-4 horas</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-users"></i>
+                                <span>Até 6 pessoas</span>
+                            </div>
+                        </div>
+                        <a href="#contato" class="btn btn-primary btn-block">
+                            <i class="fas fa-calendar-check"></i> Reservar Passeio
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="passeio-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="passeio-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.15 (2).jpeg" alt="Tour pelos Pontos Turísticos">
+                        <div class="passeio-badge recommended">Recomendado</div>
+                    </div>
+                    <div class="passeio-content">
+                        <h3 class="passeio-title">Tour Completo - Pontos Turísticos</h3>
+                        <p class="passeio-description">Conheça os principais atrativos de Monte Verde em um tour guiado completo. Visite mirantes espetaculares, pedras famosas e os locais mais instagramáveis da região.</p>
+                        <ul class="passeio-features">
+                            <li><i class="fas fa-check-circle"></i> Pedra Redonda</li>
+                            <li><i class="fas fa-check-circle"></i> Pedra Partida</li>
+                            <li><i class="fas fa-check-circle"></i> Chapéu do Bispo</li>
+                            <li><i class="fas fa-check-circle"></i> Pico do Selado</li>
+                            <li><i class="fas fa-check-circle"></i> Mirantes panorâmicos</li>
+                        </ul>
+                        <div class="passeio-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>4-5 horas</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-users"></i>
+                                <span>Até 6 pessoas</span>
+                            </div>
+                        </div>
+                        <a href="#contato" class="btn btn-primary btn-block">
+                            <i class="fas fa-calendar-check"></i> Agendar Tour
+                        </a>
+                    </div>
+                </div>
+
+                
+                <div class="passeio-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="passeio-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.16 (2).jpeg" alt="Passeios Personalizados">
+                        <div class="passeio-badge exclusive">Exclusivo</div>
+                    </div>
+                    <div class="passeio-content">
+                        <h3 class="passeio-title">Passeio Personalizado</h3>
+                        <p class="passeio-description">Monte seu roteiro ideal! Escolha os pontos que deseja conhecer, defina o ritmo do passeio e aproveite uma experiência exclusiva com sua família ou grupo de amigos.</p>
+                        <ul class="passeio-features">
+                            <li><i class="fas fa-check-circle"></i> Roteiro sob medida</li>
+                            <li><i class="fas fa-check-circle"></i> Jeep exclusivo</li>
+                            <li><i class="fas fa-check-circle"></i> Flexibilidade total</li>
+                            <li><i class="fas fa-check-circle"></i> Ideal para famílias</li>
+                            <li><i class="fas fa-check-circle"></i> Grupos e eventos</li>
+                        </ul>
+                        <div class="passeio-info">
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span>A combinar</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-users"></i>
+                                <span>Grupos privados</span>
+                            </div>
+                        </div>
+                        <a href="#contato" class="btn btn-primary btn-block">
+                            <i class="fas fa-star"></i> Solicitar Personalização
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="pontos-turisticos" id="pontos-turisticos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Descubra Monte Verde</span>
+                <h2 class="section-title">Pontos Turísticos Imperdíveis</h2>
+                <p class="section-subtitle">Conheça os lugares mais impressionantes da Serra da Mantiqueira</p>
+            </div>
+
+            <div class="pontos-grid">
+                
+                <div class="ponto-card" data-aos="fade-up">
+                    <div class="ponto-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.17 (1).jpeg" alt="Pedra Redonda">
+                        <div class="ponto-overlay">
+                            <button class="btn-zoom" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.17 (1).jpeg')">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ponto-content">
+                        <h3 class="ponto-title">Pedra Redonda</h3>
+                        <div class="ponto-meta">
+                            <span class="meta-item"><i class="fas fa-mountain"></i> 1.680m</span>
+                            <span class="meta-item"><i class="fas fa-clock"></i> 30-40 min</span>
+                            <span class="meta-item"><i class="fas fa-walking"></i> Moderado</span>
+                        </div>
+                        <p class="ponto-description">Um dos mirantes mais famosos de Monte Verde. Vista panorâmica de 360° da Serra da Mantiqueira, perfeita para fotos espetaculares ao pôr do sol.</p>
+                    </div>
+                </div>
+
+                
+                <div class="ponto-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="ponto-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.18 (1).jpeg" alt="Pedra Partida">
+                        <div class="ponto-overlay">
+                            <button class="btn-zoom" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.18 (1).jpeg')">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ponto-content">
+                        <h3 class="ponto-title">Pedra Partida</h3>
+                        <div class="ponto-meta">
+                            <span class="meta-item"><i class="fas fa-mountain"></i> 1.720m</span>
+                            <span class="meta-item"><i class="fas fa-clock"></i> 40-50 min</span>
+                            <span class="meta-item"><i class="fas fa-walking"></i> Desafiador</span>
+                        </div>
+                        <p class="ponto-description">Formação rochosa única dividida ao meio. Uma das vistas mais impressionantes da região, ideal para aventureiros e amantes da natureza.</p>
+                    </div>
+                </div>
+
+                
+                <div class="ponto-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="ponto-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.19 (2).jpeg" alt="Pico do Selado">
+                        <div class="ponto-overlay">
+                            <button class="btn-zoom" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.19 (2).jpeg')">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ponto-content">
+                        <h3 class="ponto-title">Pico do Selado</h3>
+                        <div class="ponto-meta">
+                            <span class="meta-item"><i class="fas fa-mountain"></i> 1.850m</span>
+                            <span class="meta-item"><i class="fas fa-clock"></i> 1 hora</span>
+                            <span class="meta-item"><i class="fas fa-walking"></i> Avançado</span>
+                        </div>
+                        <p class="ponto-description">O ponto mais alto da região com vista privilegiada. Perfeito para quem busca uma experiência mais radical e quer contemplar toda a imensidão da serra.</p>
+                    </div>
+                </div>
+
+                
+                <div class="ponto-card" data-aos="fade-up">
+                    <div class="ponto-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.20 (1).jpeg" alt="Chapéu do Bispo">
+                        <div class="ponto-overlay">
+                            <button class="btn-zoom" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.20 (1).jpeg')">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ponto-content">
+                        <h3 class="ponto-title">Chapéu do Bispo</h3>
+                        <div class="ponto-meta">
+                            <span class="meta-item"><i class="fas fa-mountain"></i> 1.650m</span>
+                            <span class="meta-item"><i class="fas fa-clock"></i> 30 min</span>
+                            <span class="meta-item"><i class="fas fa-walking"></i> Fácil</span>
+                        </div>
+                        <p class="ponto-description">Mirante com formato característico que lembra um chapéu. Acesso fácil e vista deslumbrante, ideal para todas as idades.</p>
+                    </div>
+                </div>
+
+                
+                <div class="ponto-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="ponto-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.16.jpeg" alt="Trilhas e Cachoeiras">
+                        <div class="ponto-overlay">
+                            <button class="btn-zoom" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.16.jpeg')">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ponto-content">
+                        <h3 class="ponto-title">Trilhas e Cachoeiras</h3>
+                        <div class="ponto-meta">
+                            <span class="meta-item"><i class="fas fa-mountain"></i> Varia</span>
+                            <span class="meta-item"><i class="fas fa-clock"></i> 2-3 horas</span>
+                            <span class="meta-item"><i class="fas fa-walking"></i> Moderado</span>
+                        </div>
+                        <p class="ponto-description">Explore trilhas ecológicas e cachoeiras cristalinas escondidas na mata atlântica. Contato direto com a natureza preservada.</p>
+                    </div>
+                </div>
+
+                
+                <div class="ponto-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="ponto-image">
+                        <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.21.jpeg" alt="Centro Monte Verde">
+                        <div class="ponto-overlay">
+                            <button class="btn-zoom" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.21.jpeg')">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ponto-content">
+                        <h3 class="ponto-title">Avenida Monte Verde</h3>
+                        <div class="ponto-meta">
+                            <span class="meta-item"><i class="fas fa-map-marker-alt"></i> Centro</span>
+                            <span class="meta-item"><i class="fas fa-clock"></i> 1-2 horas</span>
+                            <span class="meta-item"><i class="fas fa-walking"></i> Fácil</span>
+                        </div>
+                        <p class="ponto-description">Centro charmoso com lojas artesanais, restaurantes típicos, fábricas de chocolate e malhas. Arquitetura europeia e clima acolhedor.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Momentos Inesquecíveis</span>
+                <h2 class="section-title">Galeria de Fotos</h2>
+                <p class="section-subtitle">Veja como são nossos passeios e a beleza de Monte Verde</p>
+            </div>
+
+            <div class="galeria-grid">
+                <div class="galeria-item" data-aos="zoom-in" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.10.jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.10.jpeg" alt="Jeep em trilha">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="50" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.10 (2).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.10 (2).jpeg" alt="Aventura off-road">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="100" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.10 (3).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.10 (3).jpeg" alt="Paisagens da serra">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="150" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.11.jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.11.jpeg" alt="Família aproveitando">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="200" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.15.jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.15.jpeg" alt="Mirantes espetaculares">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="250" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.15 (1).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.15 (1).jpeg" alt="Aventura garantida">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.15 (3).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.15 (3).jpeg" alt="Trilhas incríveis">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="50" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.16 (1).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.16 (1).jpeg" alt="Grupos e famílias">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="100" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.16 (3).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.16 (3).jpeg" alt="Diversão garantida">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="150" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.17.jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.17.jpeg" alt="Natureza exuberante">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="200" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.17 (2).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.17 (2).jpeg" alt="Experiências únicas">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+                <div class="galeria-item" data-aos="zoom-in" data-aos-delay="250" onclick="openLightbox('IMG/WhatsApp Image 2025-11-25 at 11.06.17 (3).jpeg')">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.17 (3).jpeg" alt="Momentos especiais">
+                    <div class="galeria-overlay">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="precos" id="precos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Valores Transparentes</span>
+                <h2 class="section-title">Planos e Preços</h2>
+                <p class="section-subtitle">Investimento justo para uma experiência inesquecível</p>
+            </div>
+
+            <div class="precos-grid">
+                <div class="preco-card" data-aos="fade-up">
+                    <div class="preco-header">
+                        <h3>Jeep Off-Road</h3>
+                        <p>Aventura Básica</p>
+                    </div>
+                    <div class="preco-valor">
+                        <span class="valor-antigo">R$ 200</span>
+                        <span class="valor-atual">R$ 150</span>
+                        <span class="valor-periodo">por pessoa</span>
+                    </div>
+                    <div class="preco-badge">25% OFF</div>
+                    <ul class="preco-features">
+                        <li><i class="fas fa-check"></i> 3-4 horas de duração</li>
+                        <li><i class="fas fa-check"></i> Jeep 4x4 equipado</li>
+                        <li><i class="fas fa-check"></i> Guia experiente</li>
+                        <li><i class="fas fa-check"></i> Seguro incluído</li>
+                        <li><i class="fas fa-check"></i> Água mineral</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary btn-block">Reservar Agora</a>
+                </div>
+
+                <div class="preco-card preco-popular" data-aos="fade-up" data-aos-delay="100">
+                    <div class="popular-badge">MAIS POPULAR</div>
+                    <div class="preco-header">
+                        <h3>Tour Completo</h3>
+                        <p>Experiência Premium</p>
+                    </div>
+                    <div class="preco-valor">
+                        <span class="valor-antigo">R$ 280</span>
+                        <span class="valor-atual">R$ 220</span>
+                        <span class="valor-periodo">por pessoa</span>
+                    </div>
+                    <div class="preco-badge">21% OFF</div>
+                    <ul class="preco-features">
+                        <li><i class="fas fa-check"></i> 4-5 horas de duração</li>
+                        <li><i class="fas fa-check"></i> Todos os pontos turísticos</li>
+                        <li><i class="fas fa-check"></i> Guia especializado</li>
+                        <li><i class="fas fa-check"></i> Seguro premium</li>
+                        <li><i class="fas fa-check"></i> Água e snacks</li>
+                        <li><i class="fas fa-check"></i> Fotos profissionais</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary btn-block">Reservar Agora</a>
+                </div>
+
+                <div class="preco-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="preco-header">
+                        <h3>Personalizado</h3>
+                        <p>Sob Medida</p>
+                    </div>
+                    <div class="preco-valor">
+                        <span class="valor-atual">Consulte</span>
+                        <span class="valor-periodo">preço por grupo</span>
+                    </div>
+                    <ul class="preco-features">
+                        <li><i class="fas fa-check"></i> Duração flexível</li>
+                        <li><i class="fas fa-check"></i> Roteiro exclusivo</li>
+                        <li><i class="fas fa-check"></i> Jeep privativo</li>
+                        <li><i class="fas fa-check"></i> Ideal para grupos</li>
+                        <li><i class="fas fa-check"></i> Atendimento VIP</li>
+                        <li><i class="fas fa-check"></i> Tudo personalizado</li>
+                    </ul>
+                    <a href="#contato" class="btn btn-primary btn-block">Solicitar Orçamento</a>
+                </div>
+            </div>
+
+            <div class="precos-info" data-aos="fade-up">
+                <p><i class="fas fa-info-circle"></i> Descontos especiais para grupos acima de 10 pessoas. Crianças até 5 anos não pagam.</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-wrapper">
+                <div class="sobre-image" data-aos="fade-right">
+                    <img src="IMG/WhatsApp Image 2025-11-25 at 11.06.17 (4).jpeg" alt="SIQUEIRA PASSEIOS - Equipe">
+                    <div class="sobre-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Clientes Satisfeitos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Segurança</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-content" data-aos="fade-left">
+                    <span class="section-tag">Conheça Nossa História</span>
+                    <h2 class="section-title">Sobre a SIQUEIRA PASSEIOS</h2>
+                    <p class="sobre-text">A <strong>SIQUEIRA PASSEIOS</strong> é uma agência especializada em turismo de aventura em Monte Verde – MG. Nossa missão é proporcionar experiências inesquecíveis, com segurança, conforto e roteiros completos em Jeep 4x4.</p>
+                    <p class="sobre-text">Conhecemos cada ponto da serra e estamos prontos para levar você além do comum. Com guias experientes e apaixonados pela região, garantimos que cada passeio seja único e memorável.</p>
+                    
+                    <div class="sobre-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Equipe Qualificada</h4>
+                                <p>Guias locais experientes e certificados</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Veículos Seguros</h4>
+                                <p>Jeeps 4x4 equipados e revisados</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Roteiros Exclusivos</h4>
+                                <p>Os melhores pontos da região</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <div>
+                                <h4>Atendimento Premium</h4>
+                                <p>Foco total na sua experiência</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#contato" class="btn btn-primary">
+                        <i class="fas fa-phone-alt"></i> Entre em Contato
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Tire Suas Dúvidas</span>
+                <h2 class="section-title">Perguntas Frequentes</h2>
+                <p class="section-subtitle">Tudo o que você precisa saber antes de reservar</p>
+            </div>
+
+            <div class="faq-container">
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        <span>Qual é a duração dos passeios?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Os passeios variam de 3 a 5 horas, dependendo do roteiro escolhido. O passeio de Jeep Off-Road dura em média 3-4 horas, enquanto o Tour Completo pelos pontos turísticos leva de 4-5 horas. Passeios personalizados têm duração flexível.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="50">
+                    <button class="faq-question">
+                        <span>Crianças podem participar dos passeios?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Nossos passeios são perfeitos para famílias. Crianças a partir de 2 anos podem participar acompanhadas dos pais. Todos os veículos possuem cintos de segurança e seguimos rigorosos protocolos de segurança.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <button class="faq-question">
+                        <span>Preciso ter experiência em trilhas off-road?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Não! Nossos guias experientes conduzem todo o passeio. Você apenas relaxa e aproveita a aventura com total segurança. Os Jeeps são equipados e preparados para qualquer terreno.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                    <button class="faq-question">
+                        <span>Quais são as formas de pagamento?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Aceitamos pagamento em dinheiro, cartões de crédito, débito e PIX. Para grupos, oferecemos condições especiais. Entre em contato para mais informações sobre pacotes e descontos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <button class="faq-question">
+                        <span>O que está incluído no passeio?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Todos os passeios incluem: transporte em Jeep 4x4 equipado, guia experiente, seguro, paradas para fotos nos principais pontos, e água mineral. Refeições não estão inclusas, mas fazemos paradas em locais estratégicos.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                    <button class="faq-question">
+                        <span>Posso cancelar ou remarcar minha reserva?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Cancelamentos ou remarcações com até 24 horas de antecedência são gratuitos. Para cancelamentos de última hora, consulte nossa política de cancelamento. Condições climáticas extremas garantem remarcação sem custos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="depoimentos">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">O Que Dizem Nossos Clientes</span>
+                <h2 class="section-title">Depoimentos</h2>
+                <p class="section-subtitle">Experiências reais de quem viveu essa aventura</p>
+            </div>
+
+            <div class="depoimentos-grid">
+                <div class="depoimento-card" data-aos="fade-up">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="depoimento-text">"Experiência incrível! O guia conhecia todos os pontos da serra e nos levou em lugares maravilhosos. O Jeep é muito seguro e confortável. Recomendo demais!"</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4 class="autor-nome">Mariana Silva</h4>
+                            <p class="autor-local">São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="depoimento-text">"Passeio perfeito para fazer em família! As crianças adoraram a aventura e nós adultos ficamos encantados com as paisagens. Atendimento nota 10!"</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4 class="autor-nome">Carlos Eduardo</h4>
+                            <p class="autor-local">Belo Horizonte - MG</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="depoimento-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="depoimento-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="depoimento-text">"Melhor passeio de Monte Verde! Fomos na Pedra Redonda no pôr do sol e foi simplesmente mágico. Equipe super atenciosa e profissional. Voltaremos com certeza!"</p>
+                    <div class="depoimento-autor">
+                        <div class="autor-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4 class="autor-nome">Ana Paula</h4>
+                            <p class="autor-local">Rio de Janeiro - RJ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Vamos Planejar Sua Aventura</span>
+                <h2 class="section-title">Contato e Reservas</h2>
+                <p class="section-subtitle">Entre em contato conosco e garanta seu passeio inesquecível</p>
+            </div>
+
+            <div class="contato-wrapper">
+                <div class="contato-info" data-aos="fade-right">
+                    <h3>Fale Conosco</h3>
+                    <p>Estamos prontos para atender você e tirar todas as suas dúvidas. Escolha a melhor forma de contato:</p>
+                    
+                    <div class="info-list">
+                        <div class="info-item-contact">
+                            <div class="info-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/5535991103569" target="_blank">(35) 9110-3569</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item-contact">
+                            <div class="info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>Telefone</h4>
+                                <a href="tel:+5535991103569">(35) 9110-3569</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item-contact">
+                            <div class="info-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>Instagram</h4>
+                                <a href="https://www.instagram.com/siqueira_passeiomonteverde/" target="_blank">@siqueira_passeiomonteverde</a>
+                            </div>
+                        </div>
+
+                        <div class="info-item-contact">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>Horário de Atendimento</h4>
+                                <p>Todos os dias: 8h às 20h</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item-contact">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-details">
+                                <h4>Localização</h4>
+                                <p>Monte Verde - Camanducaia - MG</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="payment-methods">
+                        <h4><i class="fas fa-credit-card"></i> Formas de Pagamento</h4>
+                        <p>Aceitamos cartões e PIX</p>
+                    </div>
+                </div>
+
+                <div class="contato-form" data-aos="fade-left">
+                    <h3>Solicite Sua Reserva</h3>
+                    <form id="reservaForm">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telefone">Telefone/WhatsApp *</label>
+                                <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="seu@email.com">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="data">Data Pretendida *</label>
+                                <input type="date" id="data" name="data" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="pessoas">Número de Pessoas *</label>
+                                <input type="number" id="pessoas" name="pessoas" required min="1" max="20" placeholder="0">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="passeio">Tipo de Passeio *</label>
+                            <select id="passeio" name="passeio" required>
+                                <option value="">Selecione o passeio</option>
+                                <option value="jeep-offroad">Jeep 4x4 Off-Road</option>
+                                <option value="tour-completo">Tour Completo - Pontos Turísticos</option>
+                                <option value="personalizado">Passeio Personalizado</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem ou Observações</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Conte-nos mais sobre o que você busca..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Enviar Solicitação
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Pronto para Viver uma Aventura Inesquecível?</h2>
+                <p>Monte Verde te espera! Reserve agora seu passeio e descubra os encantos da Serra da Mantiqueira</p>
+                <a href="https://wa.me/5535991103569?text=Olá!%20Quero%20garantir%20meu%20passeio%20com%20a%20SIQUEIRA%20PASSEIOS!" target="_blank" class="btn btn-cta">
+                    <i class="fas fa-calendar-check"></i> Garanta Seu Passeio Agora
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>SIQUEIRA <span class="highlight">PASSEIOS</span></h3>
+                    <p>Aventura, segurança e experiências inesquecíveis em Monte Verde.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/siqueira_passeiomonteverde/" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/siqueirapasseios" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/5535991103569" target="_blank" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Passeios</h4>
+                    <ul>
+                        <li><a href="#passeios">Jeep 4x4 Off-Road</a></li>
+                        <li><a href="#passeios">Tour Pontos Turísticos</a></li>
+                        <li><a href="#passeios">Passeios Personalizados</a></li>
+                        <li><a href="#galeria">Galeria de Fotos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Links Úteis</h4>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#pontos-turisticos">Pontos Turísticos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> (35) 9110-3569</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Monte Verde - MG</li>
+                        <li><i class="fas fa-clock"></i> Diariamente: 8h - 20h</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 SIQUEIRA PASSEIOS - Todos os direitos reservados</p>
+                <p>Desenvolvido com <i class="fas fa-heart"></i> para aventureiros</p>
+            </div>
+        </div>
+    </footer>
+
+    
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+        <img class="lightbox-content" id="lightboxImg">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
